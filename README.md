@@ -47,4 +47,4 @@ El objetivo de este taller es hacer que la página que ya desarrollamos se vea c
 - [Guía de diseño web responsive](https://www.w3schools.com/html/html_responsive.asp)
 
 ## LINK PAGINA:
-- [Página web]()
+- [Página web](https://dsaw-2024-1.github.io/css-frameworks-JuanJoseRodriguezF/)

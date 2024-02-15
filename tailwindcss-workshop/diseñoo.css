@@ -1,0 +1,125 @@
+.container{
+    padding-top: 150px;
+    padding-left: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_1{
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+.container_circle{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%; /*Se usa para hacer el contenedor circular*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.t1, .t2 {
+    display: inline;
+}
+.t3, .t2 {
+    display: inline;
+    margin-right: 90px;
+    margin-left: 24px;
+}
+.t4, .t2 {
+    display: inline;
+    margin-right: 90px;
+    margin-left: 24px;
+}
+.t5, .t2 {
+    display: inline;
+    margin-right: 90px;
+    margin-left: 24px;
+}
+.btn{
+    border-radius: 40px;
+}
+@media (min-width:321px) and (max-width:768px){ /*Se usa para cuando el viewport es de tablets*/
+    .container{
+        padding-top: 150px;
+        padding-left: 20%;
+        padding-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .container_circle{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%; /*Se usa para hacer el contenedor circular*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .t1, .t2 {
+        display: inline;
+        margin-right: 40px;
+        margin-left: 24px;
+    }
+    .contenedor_1{
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:1024px){ /*Se usa para cuando el viewport es en desktopq*/
+    .container{
+        padding-top: 150px;
+        padding-left: 20%;
+        padding-bottom: 20%;
+        display: flex;
+        flex-direction: row;
+    }
+    .contenedor_1{
+        border-radius: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 20px;
+    }
+    .container_circle{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%; /*Se usa para hacer el contenedor circular*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 22%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .t1, .t2 {
+        display: inline;
+        margin-right: 90px;
+        margin-left: 24px;
+    }
+    .t3, .t2 {
+        display: inline;
+        margin-right: 90px;
+        margin-left: 24px;
+    }
+    .t4, .t2 {
+        display: inline;
+        margin-right: 90px;
+        margin-left: 24px;
+    }
+    .t5, .t2 {
+        display: inline;
+        margin-right: 90px;
+        margin-left: 24px;
+    }
+    .btn{
+        border-radius: 40px;
+    }
+}
